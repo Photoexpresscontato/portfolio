@@ -1320,24 +1320,25 @@ a:focus {
 
 .obrigado-image {
   max-width: 90%;
-  width: 300px;
+  width: 280px;
   height: auto;
   transition: all 0.3s ease-in-out;
 }
 
-/* Ajuste para telas médias (tablets) */
+/* Ajuste para tablets */
 @media (min-width: 768px) {
   .obrigado-image {
-    width: 340px;
+    width: 320px;
   }
 }
 
-/* Ajuste para telas grandes (PCs) */
+/* Ajuste para desktops grandes */
 @media (min-width: 1200px) {
   .obrigado-image {
-    width: 380px;
+    width: 260px; /* 👈 Aqui reduzimos a imagem no PC */
   }
 }
+
 
 .obrigado-image:hover {
   transform: scale(1.03);
