@@ -1313,10 +1313,16 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column; /* garante que o texto fique abaixo da imagem, centralizado */
   width: 100%;
-  margin: 0 auto 40px auto;
-  text-align: center;
+  margin: 0 auto;
 }
+
+.obrigado-image-container img.obrigado-image {
+  max-width: 100%;
+  height: auto;
+}
+
 
 .obrigado-image {
   width: 85%;
