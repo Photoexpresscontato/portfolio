@@ -1308,20 +1308,41 @@ a:focus {
   color: #000;
 }
 
-.img-obrigado {
-  display: block;
-  margin: 40px auto;
-  max-width: 400px;
-  width: 80%;
-  height: auto;
+/* ===== IMAGEM DA PÁGINA DE OBRIGADO ===== */
+.obrigado-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+  width: 100%;
+  text-align: center;
 }
 
-@media (min-width: 992px) {
-  .img-obrigado {
-    max-width: 500px;
-    width: 60%;
+.obrigado-image {
+  max-width: 90%;
+  width: 300px;
+  height: auto;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Ajuste para telas médias (tablets) */
+@media (min-width: 768px) {
+  .obrigado-image {
+    width: 340px;
   }
 }
+
+/* Ajuste para telas grandes (PCs) */
+@media (min-width: 1200px) {
+  .obrigado-image {
+    width: 380px;
+  }
+}
+
+.obrigado-image:hover {
+  transform: scale(1.03);
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
