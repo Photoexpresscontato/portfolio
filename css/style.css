@@ -85,15 +85,15 @@ body {
 }
 
 .hero_area .slick_main .main-img-box.b1 {
-  background-image: url(../images/a-1.jpg);
+  background-image: url(../images_p/cloth_after_logo.jpg);
 }
 
 .hero_area .slick_main .main-img-box.b2 {
-  background-image: url(../images/hero-side-bg2.jpg);
+  background-image: url(../images_p/burguer_after_logo.jpg);
 }
 
 .hero_area .slick_main .main-img-box.b3 {
-  background-image: url(../images/hero-side-bg.jpg);
+  background-image: url(../images_p/car_after_logo.jpg);
 }
 
 .sub_page .hero_area {
@@ -133,7 +133,7 @@ body {
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  background-color: #f0b016;
+  background-color: #0f2233;
   color: #ffffff;
 }
 
@@ -321,15 +321,15 @@ a:focus {
 .slider_section .slider_content #carouselExampleIndicators .detail_box .btn-box .btn-1 {
   display: inline-block;
   padding: 8px 0;
-  background-color: #f0b016;
-  border: 1px solid #f0b016;
+  background-color: #0f2233;
+  border: 1px solid #0f2233;
   color: #ffffff;
   border-radius: 5px;
 }
 
 .slider_section .slider_content #carouselExampleIndicators .detail_box .btn-box .btn-1:hover {
   background-color: transparent;
-  color: #f0b016;
+  color: #0f2233;
 }
 
 .slider_section .slider_content #carouselExampleIndicators .detail_box .btn-box .btn-2 {
@@ -513,6 +513,8 @@ a:focus {
           transform: translateY(-75px);
 }
 
+
+
 .about_section .box .detail-box {
   -webkit-box-flex: 1;
       -ms-flex: 1;
@@ -532,8 +534,8 @@ a:focus {
 .about_section .box .detail-box a {
   display: inline-block;
   padding: 8px 35px;
-  background-color: #f0b016;
-  border: 1px solid #f0b016;
+  background-color: #0f2233;
+  border: 1px solid #0f2233;
   color: #ffffff;
   border-radius: 5px;
   margin-top: 35px;
@@ -541,7 +543,7 @@ a:focus {
 
 .about_section .box .detail-box a:hover {
   background-color: transparent;
-  color: #f0b016;
+  color: #0f2233;
 }
 
 .about_section::before {
@@ -595,7 +597,7 @@ a:focus {
           justify-content: center;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  background-color: rgba(232, 173, 34, 0.9);
+  background-color: rgba(15, 34, 51, 0.9);
   border: 5px solid #ffffff;
 }
 
@@ -615,7 +617,7 @@ a:focus {
 }
 
 .quality_section {
-  background-image: url(../images/quality-bg.jpg);
+  background-image: url(../images_p/quality-bg.png);
   background-size: cover;
   color: #ffffff;
   margin-top: -2px;
@@ -702,7 +704,7 @@ a:focus {
 }
 
 .item_section .item_container .box h6 {
-  color: #fbb534;
+  color: #0f2233;
   text-transform: uppercase;
 }
 
@@ -785,7 +787,7 @@ a:focus {
 }
 
 .price_section .price_container .box .detail-box h5 span {
-  color: #fbb534;
+  color: #0f2233;
 }
 
 .price_section .price_container .box .detail-box a {
@@ -798,8 +800,8 @@ a:focus {
 }
 
 .price_section .price_container .box:hover a {
-  border-color: #fbb534;
-  color: #fbb534;
+  border-color: #0f2233;
+  color: #0f2233;
 }
 
 .price_section .price_btn {
@@ -847,7 +849,7 @@ a:focus {
 
 .ring_section .ring_container .detail-box h4 {
   text-transform: uppercase;
-  color: #fbb534;
+  color: #0f2233;
 }
 
 .ring_section .ring_container .detail-box a {
@@ -891,7 +893,7 @@ a:focus {
 }
 
 .client_section .box .detail-box h4 {
-  color: #f0b016;
+  color: #0f2233;
   position: relative;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -904,7 +906,7 @@ a:focus {
   bottom: 0;
   width: 125px;
   height: 1px;
-  background-color: #f0b016;
+  background-color: #0f2233;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -929,7 +931,7 @@ a:focus {
   top: initial;
   bottom: 0;
   opacity: 1;
-  background-color: #f0b016;
+  background-color: #0f2233;
   background-size: 12px;
   background-repeat: no-repeat;
   background-position: center;
@@ -982,7 +984,7 @@ a:focus {
 }
 
 .news_section .box .img-box .date h5 {
-  color: #f0b016;
+  color: #0f2233;
   font-weight: bold;
 }
 
@@ -1010,7 +1012,7 @@ a:focus {
   padding-right: 35px;
 }
 
-.contact_section input {
+.contact_section input, textarea {
   width: 100%;
   border: none;
   height: 50px;
@@ -1020,6 +1022,8 @@ a:focus {
   outline: none;
   color: #101010;
   border-radius: 50px;
+
+  
 }
 
 .contact_section input::-webkit-input-placeholder {
@@ -1049,7 +1053,7 @@ a:focus {
   border: none;
   border-radius: 30px;
   color: #fff;
-  background: #f0b016;
+  background: #0f2233;
   margin: auto;
   margin-top: 15px;
   font-size: 15px;
@@ -1155,11 +1159,11 @@ a:focus {
 }
 
 .info_section .info-nav ul li:hover::before, .info_section .info-nav ul li.active::before {
-  background-color: #f0b016;
+  background-color: #0f2233;
 }
 
 .info_section .info-contact h6 {
-  color: #f0b016;
+  color: #257cc8;
   font-size: 18px;
   padding-left: 30px;
 }
@@ -1238,7 +1242,7 @@ a:focus {
 .info_section .info_form form button {
   border: none;
   outline: none;
-  background-color: #f0b016;
+  background-color: #0f2233;
   width: 55px;
   font-size: 15px;
   text-transform: uppercase;
@@ -1250,7 +1254,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #f0b016;
+  background-color: #0f2233;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1271,4 +1275,39 @@ a:focus {
 .footer_section a {
   color: #ffffff;
 }
+
+@media (max-width: 768px) {
+  .img_container .img-box {
+    max-width: 140px !important;
+  }
+}
+
+/* Dropdown do menu - Photo Express */
+.nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-menu {
+  background-color: #ffffff;
+  border: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  min-width: 160px;
+  border-radius: 8px;
+  padding: 10px 0;
+}
+
+.dropdown-item {
+  color: #333;
+  padding: 8px 20px;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.dropdown-item:hover {
+  background-color: #00000010;
+  color: #000;
+}
+
+
+
 /*# sourceMappingURL=style.css.map */

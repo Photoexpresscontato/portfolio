@@ -589,7 +589,7 @@ a:focus {
 // quality section
 
 .quality_section {
-  background-image: url(../images/quality-bg.jpg);
+  background-image: url(../images_p/quality-bg.png);
   background-size: cover;
   color: $white;
   margin-top: -2px;
@@ -977,7 +977,7 @@ a:focus {
     padding-right: 35px;
   }
 
-  input {
+  input, textarea {
     width: 100%;
     border: none;
     height: 50px;
@@ -987,6 +987,8 @@ a:focus {
     outline: none;
     color: #101010;
     border-radius: 50px;
+
+    
 
     &::placeholder {
       color: #131313;
@@ -1161,7 +1163,7 @@ a:focus {
       display: flex;
       align-items: stretch;
 
-      input {
+      input, textarea{
         background-color: $white;
         border: none;
         width: calc(100% - 55px);
