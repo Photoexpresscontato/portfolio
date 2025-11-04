@@ -94,29 +94,19 @@
       <div class="row">
         <div class="col-md-6">
           <form action="https://formsubmit.co/photoexpresscontato@gmail.com" method="POST">
-  <div>
-    <input type="text" name="name" placeholder="Nome" required />
-  </div>
-  <div>
-    <input type="email" name="email" placeholder="E-mail" required />
-  </div>
-  <div>
-    <input type="text" name="phone" placeholder="Telefone" required />
-  </div>
-  <div>
-    <textarea name="message" class="message-box" placeholder="Mensagem" required></textarea>
-  </div>
-    <input type="hidden" name="_subject" value="Novo e-mail recebido pelo campo de contato do site!">
-  <!-- Evita spam -->
+  <input type="text" name="nome" placeholder="Seu nome" required>
+  <input type="email" name="email" placeholder="Seu e-mail" required>
+  <input type="tel" name="telefone" placeholder="Seu telefone">
+  <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+
+  <!-- Campos ocultos -->
+  <input type="hidden" name="_subject" value="Novo e-mail recebido pelo campo de contato do site!">
   <input type="hidden" name="_captcha" value="true">
+  <input type="hidden" name="_template" value="table">
+  <input type="hidden" name="_next" value="https://photoexpresscontato.github.io/portfolio/sucesso.html">
 
-  <!-- Redireciona pra página de agradecimento -->
-  <input type="hidden" name="_next" value="https://photoexpresscontato.github.io/portfolio/obrigado.html">
-
-  <div class="d-flex">
-    <button type="submit">
-      ENVIAR
-    </button>
+  <div class="d-flex justify-content-end">
+    <button type="submit">Enviar</button>
   </div>
 </form>
         </div>
