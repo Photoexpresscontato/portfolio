@@ -1313,36 +1313,36 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 40px;
   width: 100%;
+  margin: 0 auto 40px auto;
   text-align: center;
 }
 
 .obrigado-image {
-  max-width: 90%;
-  width: 280px;
+  width: 85%;
+  max-width: 350px; /* Tamanho padrão bonito */
   height: auto;
   transition: all 0.3s ease-in-out;
 }
 
-/* Ajuste para tablets */
+/* Tablets */
 @media (min-width: 768px) {
   .obrigado-image {
-    width: 320px;
+    max-width: 300px;
   }
 }
 
-/* Ajuste para desktops grandes */
+/* Desktops */
 @media (min-width: 1200px) {
   .obrigado-image {
-    width: 260px; /* 👈 Aqui reduzimos a imagem no PC */
+    max-width: 220px; /* 👈 Agora menor, mas proporcional */
   }
 }
-
 
 .obrigado-image:hover {
   transform: scale(1.03);
 }
+
 
 
 
