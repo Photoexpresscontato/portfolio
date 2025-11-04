@@ -1308,6 +1308,20 @@ a:focus {
   color: #000;
 }
 
+.img-obrigado {
+  display: block;
+  margin: 40px auto;
+  max-width: 400px;
+  width: 80%;
+  height: auto;
+}
+
+@media (min-width: 992px) {
+  .img-obrigado {
+    max-width: 500px;
+    width: 60%;
+  }
+}
 
 
 /*# sourceMappingURL=style.css.map */
